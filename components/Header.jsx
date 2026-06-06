@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <header className={`header-container ${isDark ? "dark" : ""}`}>
     <div className="header-content">
-        <h2 className="title"><a href="/">Where in the world</a></h2>
+        <h2 className="title"><a href="/">Where in the worlds</a></h2>
         <div className="theme-changer" onClick={() => {
           setIsDark(!isDark)
           localStorage.setItem("isDarkMode", !isDark)
